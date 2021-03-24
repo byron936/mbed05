@@ -37,7 +37,7 @@ int main()
 
         uLCD.printf("%2d",i);
 
-        ThisThread::sleep_for(500ms);
+        ThisThread::sleep_for(1s);
 
     }
 
